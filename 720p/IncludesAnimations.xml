@@ -174,37 +174,9 @@
 	</include>
 
 	<include name="transition_OSD">
-		<animation type="WindowOpen">
-			<effect type="Fade" start="0" end="97" time="transition_Open" />
-		</animation>
-		<animation type="WindowClose">
-			<effect type="Fade" start="97" end="0" time="transition_Close" />
-		</animation>
-		<animation type="Visible">
-			<effect type="Fade" start="0" end="97" time="transition_Visible" />
-		</animation>
-		<animation type="Hidden">
-			<effect type="Fade" start="97" end="0" time="transition_Hidden" />
-		</animation>
 	</include>
 
 	<include name="transition_Dialog">
-		<animation type="WindowOpen">
-			<effect type="zoom" time="transition_DialogOpen" start="90"  end="100" tween="Sine" easing="Out" center="screen_Center"/>
-			<effect type="Fade" time="transition_DialogOpen" start="0" end="100" tween="Sine" easing="In" />
-		</animation>			
-		<animation type="WindowClose">
-			<effect type="zoom" time="transition_DialogClose" start="100" end="90" tween="Sine" easing="Out" center="screen_Center"/>
-			<effect type="Fade" time="transition_DialogClose" start="100" end="0" tween="Sine" easing="Out" />
-		</animation>
-		<animation type="Visible">
-			<effect type="zoom" time="transition_DialogOpen" start="90"  end="100" tween="Sine" easing="Out" center="screen_Center"/>
-			<effect type="Fade" time="transition_DialogOpen" start="0" end="100" tween="Sine" easing="In" />
-		</animation>			
-		<animation type="Hidden">
-			<effect type="zoom" time="transition_DialogClose" start="100" end="90" tween="Sine" easing="Out" center="screen_Center"/>
-			<effect type="Fade" time="transition_DialogClose" start="100" end="0" tween="Sine" easing="Out" />
-		</animation>
 	</include>
 
 <!--toggles-->
